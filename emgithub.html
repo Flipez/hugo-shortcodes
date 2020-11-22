@@ -1,0 +1,1 @@
+<script src="https://emgithub.com/embed.js?target=https://github.com/{{.Get "user"}}/{{.Get "repo"}}/blob/{{ if .Get "branch"}}{{.Get "branch"}}{{else}}master{{end}}/{{ .Get "file" }}&style={{ if .Get "style"}}{{ .Get "style"}}{{else}}dracula{{end}}{{ if .Get "border"}}&showBorder=on{{end}}&showLineNumbers=on{{if .Get "metadata"}}&showFileMeta=on{{end}}"></script>
